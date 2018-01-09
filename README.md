@@ -22,11 +22,11 @@ Requerimientos
 
 Compilar Proyecto
 -----------------
-Una vez descargado el programa Code Composer Studio, abrimos el programa y vamos a File->Open Projects from File Systems.
+Una vez descargado e instalado el programa Code Composer Studio, abrimos el programa y vamos a File->Open Projects from File Systems.
 
 ![ccs1](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs1.png?raw=true)
 
-seleccionamos la carpeta donde de nuestro proyecto y damos click en "Finish". 
+seleccionamos la carpeta de nuestro proyecto y damos click en "Finish". 
 
 ![ccs2](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs2.png?raw=true)
 
