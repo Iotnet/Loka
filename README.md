@@ -28,6 +28,16 @@ Requerimientos
 -   [Cable FTDI](https://github.com/Iotnet/Loka/blob/master/imagenes/ftdi.jpeg)
 -   Sensor de temperatura TMP36.
 
+Pinout
+------
+A continuación se muestra el pinout.
+
+![ccs1](https://github.com/Iotnet/Loka/blob/master/imagenes/pinout_loka.png?raw=true)
+
+Los pines importantes para este proyecto, son TX, RX y la entrada analogica A0.
+
+![ccs1](https://github.com/Iotnet/Loka/blob/master/imagenes/lokapinout.jpeg?raw=true)
+
 Compilar Proyecto
 -----------------
 Una vez descargado e instalado el programa Code Composer Studio, abrimos el programa y vamos a File->Open Projects from File Systems.
@@ -57,7 +67,7 @@ Abrimos el programa FemtoFirmwareLoader y seleccionamos el COM abierto por el ca
 
 ![femto](https://github.com/Iotnet/Loka/blob/master/imagenes/femto.png?raw=true)
 
-Quitamos la alimentación del Loka y conectamos nuestro cable FTDI al Loka. Conectamos TX(Loka)->RX(cable) y RX(Loka)->TX(cable)
+Quitamos la alimentación del Loka y conectamos nuestro cable FTDI. Conectamos TX(Loka)->RX(cable) y RX(Loka)->TX(cable)
 
 ![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/prog.jpeg?raw=true)
 
