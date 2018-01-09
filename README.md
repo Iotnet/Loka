@@ -9,6 +9,10 @@ Introducción
 ------------
 Este proyecto tiene como finalidad el mostrar paso por paso como compilar y subir un firmware nuevo al dispositivo Loka. Para esto se añadirá el sensor TMP36 como sensor de temperatura externo. Se seleccionó el sensor TMP36 para este ejemplo por la compensacion que trae por defecto para lecturas por debajo de los 0 ºC, es decir, el sensor tiene un offset de 500 mV por lo que  a 25 ºC el voltaje de salida es de 750 mV. Gracias a esto es posible medir valores negativos de temperatura sin necesidad de un arreglo extra, ya que los ADCs del Loka solo aceptan voltajes entre 0V y 2.5V.   
 
+CONSIDERACIONES
+---------------
+Para poder compilar el proyecto en el Code Composer Studio, necesitaremos la libreria "loka-lib-rc.lib" la cual puede ser solicitada en support@loka-systems.com
+
 Requerimientos
 --------------
 -   [Code Composer Studio](http://www.ti.com/tool/ccstudio)
