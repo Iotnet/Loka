@@ -17,7 +17,7 @@ Requerimientos
 --------------
 -   [Code Composer Studio](http://www.ti.com/tool/ccstudio)
 -   [Firmware Loader](http://www.thought-creator.com/wp-content/uploads/2015/03/FemtoFirmwareLoader.zip)
--   Cable FTDI.
+-   [Cable FTDI](https://github.com/Iotnet/Loka/blob/master/imagenes/ftdi.jpeg)
 -   Sensor de temperatura TMP36.
 
 Compilar Proyecto
@@ -25,9 +25,20 @@ Compilar Proyecto
 Una vez descargado el programa Code Composer Studio, abrimos el programa y seleccionamos la ruta donde tenemos la carpeta de nuestro proyecto. Damos click en el boton de compilar. Si nuestro codigo no tiene ningun error, nos generará el archivo .TXT que subiremos a nuestro dispositivo.
 
 
-Conectamos el cable FTDI a la computadora y abrimos el administrador de dispositivos para cambiar la frecuencia del puerto COM de 9600 a 115200 bits por segundo.
+
+Conectamos el cable FTDI a la computadora y abrimos el administrador de dispositivos.
+
+![puerto](https://github.com/Iotnet/Loka/blob/master/imagenes/puerto.png?raw=true)
+
+Abrimos las propiedades del puerto y cambiamos la frecuencia del puerto COM de 9600 a 115200 bits por segundo.
+
+![puerto](https://github.com/Iotnet/Loka/blob/master/imagenes/puerto2.png?raw=true)
 
 Abrimos el programa FemtoFirmwareLoader y seleccionamos el COM abierto por el cable FTDI. Buscamos el archivo .txt dentro de la carpeta "debug" contenida en la carpeta del proyecto.
 
+![femto](https://github.com/Iotnet/Loka/blob/master/imagenes/femto.png?raw=true)
+
 Quitamos la alimentación del Loka y conectamos nuestro cable FTDI al Loka. Conectamos TX(Loka)->RX(cable) y RX(Loka)->TX(cable)
+
+![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/prog.jpeg?raw=true)
 
