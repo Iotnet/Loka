@@ -34,7 +34,7 @@ A continuación se muestra el pinout.
 
 ![ccs1](https://github.com/Iotnet/Loka/blob/master/imagenes/pinout_loka.png?raw=true)
 
-Los pines importantes para este proyecto, son TX, RX y la entrada analogica A0.
+El pinout anterior se conserva para la nueva version 1.2. Los pines importantes para este proyecto, son TX, RX y la entrada analógica A0.
 
 ![ccs1](https://github.com/Iotnet/Loka/blob/master/imagenes/lokapinout.jpeg?raw=true)
 
@@ -70,4 +70,10 @@ Abrimos el programa FemtoFirmwareLoader y seleccionamos el COM abierto por el ca
 Quitamos la alimentación del Loka y conectamos nuestro cable FTDI. Conectamos TX(Loka)->RX(cable) y RX(Loka)->TX(cable)
 
 ![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/prog.jpeg?raw=true)
+
+Damos click en "Program Firmware" y se nos pedirá encender nuestro dispositivo.
+
+Al restaurar la alimentación, borrará la memoria del micro controlador y empezará a cargar el nuevo firmware. Este proceso tomará unos segundos.
+
+
 
