@@ -3,7 +3,15 @@ Loka
 
 -   [Introducción](#introduccion)
 
+-   [CONSIDERACIONES](#consideraciones)
+
 -   [Requerimientos](#requirimientos)
+
+-   [Compilar Proyecto](#compilar-proyecto)
+
+-   [Cargar Firmware](#cargar-firmware)
+
+
 
 Introducción
 ------------
@@ -33,6 +41,9 @@ seleccionamos la carpeta de nuestro proyecto y damos click en "Finish".
 Damos click en el boton de compilar. Si nuestro codigo no tiene ningun error, nos generará el archivo .TXT que subiremos a nuestro dispositivo.
 
 ![ccs3](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs3.png?raw=true)
+
+Cargar Firmware
+---------------
 
 Conectamos el cable FTDI a la computadora y abrimos el administrador de dispositivos.
 
