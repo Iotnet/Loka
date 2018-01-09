@@ -22,9 +22,17 @@ Requerimientos
 
 Compilar Proyecto
 -----------------
-Una vez descargado el programa Code Composer Studio, abrimos el programa y seleccionamos la ruta donde tenemos la carpeta de nuestro proyecto. Damos click en el boton de compilar. Si nuestro codigo no tiene ningun error, nos generará el archivo .TXT que subiremos a nuestro dispositivo.
+Una vez descargado el programa Code Composer Studio, abrimos el programa y vamos a File->Open Projects from File Systems.
 
+![ccs1](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs1.png?raw=true)
 
+seleccionamos la carpeta donde de nuestro proyecto y damos click en "Finish". 
+
+![ccs2](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs2.png?raw=true)
+
+Damos click en el boton de compilar. Si nuestro codigo no tiene ningun error, nos generará el archivo .TXT que subiremos a nuestro dispositivo.
+
+![ccs3](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs3.png?raw=true)
 
 Conectamos el cable FTDI a la computadora y abrimos el administrador de dispositivos.
 
