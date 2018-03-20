@@ -1,15 +1,15 @@
 Loka
 ====
 
--   	[Introducción](#introduccion)
+-	[Introducción](#introduccion)
 
--   	[CONSIDERACIONES](#consideraciones)
+-	[CONSIDERACIONES](#consideraciones)
 
--   	[Requerimientos](#requirimientos)
+-	[Requerimientos](#requirimientos)
 
--   	[Compilar Proyecto](#compilar-proyecto)
+-	[Compilar Proyecto](#compilar-proyecto)
 
--   	[Cargar Firmware](#cargar-firmware)
+-	[Cargar Firmware](#cargar-firmware)
 
 -	[Ejemplo](#ejemplo)
 
