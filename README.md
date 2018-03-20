@@ -75,5 +75,12 @@ Damos click en "Program Firmware" y se nos pedirá encender nuestro dispositivo.
 
 Al restaurar la alimentación, borrará la memoria del micro controlador y empezará a cargar el nuevo firmware. Este proceso tomará unos segundos.
 
+![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka10.png?raw=true)
+
+![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka11.png?raw=true)
+
+![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka12.png?raw=true)
+
+![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka13.png?raw=true)
 
 
