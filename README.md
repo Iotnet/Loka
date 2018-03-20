@@ -15,7 +15,7 @@ Loka
 
 Introducción
 ------------
-Este proyecto tiene como finalidad el mostrar paso por paso como compilar y subir un firmware nuevo al dispositivo Loka. Para esto se añadirá el sensor TMP36 como sensor de temperatura externo. Se seleccionó el sensor TMP36 para este ejemplo por la compensacion que trae por defecto para lecturas por debajo de los 0 ºC, es decir, el sensor tiene un offset de 500 mV por lo que  a 25 ºC el voltaje de salida es de 750 mV. Gracias a esto es posible medir valores negativos de temperatura sin necesidad de un arreglo extra, ya que los ADCs del Loka solo aceptan voltajes entre 0V y 2.5V.   
+Este proyecto tiene como finalidad el mostrar paso por paso como compilar y subir un firmware nuevo al dispositivo Loka.   
 
 CONSIDERACIONES
 ---------------
@@ -26,7 +26,6 @@ Requerimientos
 -   [Code Composer Studio](http://www.ti.com/tool/ccstudio)
 -   [Firmware Loader](http://www.thought-creator.com/wp-content/uploads/2015/03/FemtoFirmwareLoader.zip)
 -   [Cable FTDI](https://github.com/Iotnet/Loka/blob/master/imagenes/ftdi.jpeg)
--   Sensor de temperatura TMP36.
 
 Pinout
 ------
@@ -73,14 +72,23 @@ Quitamos la alimentación del Loka y conectamos nuestro cable FTDI. Conectamos T
 
 Damos click en "Program Firmware" y se nos pedirá encender nuestro dispositivo.
 
-Al restaurar la alimentación, borrará la memoria del micro controlador y empezará a cargar el nuevo firmware. Este proceso tomará unos segundos.
-
 ![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka10.png?raw=true)
+
+Al poner las baterías o restablecer la alimentación de la tarjeta (3.3 V), empezará a borrar la memoria
 
 ![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka11.png?raw=true)
 
+después de unos segundos, empezará a cargar el nuevo firmware. Esto puede tardar, debido a que se programa por medio del protocolo serial
+
 ![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka12.png?raw=true)
 
+una vez terminado, nos aparecerá un cuadro de dialogo de que el nuevo Firmware a sido cargado exitosamente.
+
 ![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka13.png?raw=true)
+
+Ejemplo
+-------
+
+Para este ejemplo se añadirá el sensor TMP36 como sensor de temperatura externo. Se seleccionó el sensor TMP36 para este ejemplo por la compensación que trae por defecto para lecturas por debajo de los 0 ºC, es decir, el sensor tiene un offset de 500 mV por lo que  a 25 ºC el voltaje de salida es de 750 mV. Gracias a esto es posible medir valores negativos de temperatura sin necesidad de un arreglo extra, ya que los ADCs del Loka solo aceptan voltajes entre 0V y 2.5V. 
 
 
