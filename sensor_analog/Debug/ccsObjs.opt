@@ -1,0 +1,1 @@
+"./main.obj" "../lnk_msp430f5244.cmd" -l"C:/Users/Fortencho/Desktop/loka-lib-rc.lib" -llibmath.a -llibc.a 
