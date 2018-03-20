@@ -21,7 +21,7 @@ Este proyecto tiene como finalidad el mostrar paso por paso como compilar y subi
 
 CONSIDERACIONES
 ---------------
-Para poder compilar el proyecto en el Code Composer Studio, necesitaremos la libreria "loka-lib-rc.lib" la cual puede ser solicitada en support@loka-systems.com
+-Para poder compilar el proyecto en el Code Composer Studio, necesitaremos la librería "loka-lib-rc.lib" la cual puede ser solicitada en support@loka-systems.com
 
 Requerimientos
 --------------
@@ -48,6 +48,10 @@ Una vez descargado e instalado el programa Code Composer Studio, abrimos el prog
 seleccionamos la carpeta de nuestro proyecto y damos click en "Finish". 
 
 ![ccs2](https://github.com/Iotnet/Loka/blob/master/imagenes/ccs2.png?raw=true)
+
+Agregamos el archivo .lib que solicitamos por correo. Nos vamos a Project->Properties->MSP430 Linker->File search path y buscamos la librería en el directorio donde la tengamos
+
+![prog](https://github.com/Iotnet/Loka/blob/master/imagenes/loka14.png?raw=true)
 
 Damos click en el boton de compilar. Si nuestro codigo no tiene ningun error, nos generará el archivo .TXT que subiremos a nuestro dispositivo.
 
